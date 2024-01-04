@@ -1,8 +1,24 @@
-# React + Vite
+# Gestão de Estoque usando React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+Este é um projeto de gestão de estoque desenvolvido por Alisson Joaquim, utilizando React e React-Router-Dom. O objetivo é fornecer uma aplicação interativa para gerenciamento eficiente de estoques.
 
-Currently, two official plugins are available:
+## Características
+- **React:** Construção de uma aplicação dinâmica e responsiva utilizando React.
+- **React-Router-Dom:** Navegação eficiente entre as páginas do aplicativo sem recarregamento completo da página.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalação
+Para rodar este projeto localmente:
+1. Clone o repositório: `git clone https://github.com/AlissonJLO/GestaoDeEstoque-usando-React`
+2. Instale as dependências com Yarn: `yarn install`
+3. Inicie a aplicação: `yarn start`
+
+## Contribuição
+Contribuições para melhorar o aplicativo são sempre bem-vindas. Para contribuir, faça um fork do projeto, crie uma branch para sua feature, faça suas alterações, e então submeta uma pull request.
+
+## Licença
+Este projeto está sob a licença MIT.
+
+---
+
+Desenvolvido por Alisson Joaquim
