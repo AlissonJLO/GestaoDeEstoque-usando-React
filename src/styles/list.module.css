@@ -1,0 +1,61 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaçamento entre células */
+    margin-top: 1.9rem;
+  }
+  
+  th, td {
+    border: 1px solid #333; /* Adiciona borda para as células */
+    padding: 0.5rem;
+    text-align: center; /* Centraliza o texto nas células */
+  }
+  
+  th {
+    background-color: #202020;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  td {
+    background-color: #303030;
+    color: #fff;
+  }
+
+
+  
+  /* Estiliza os botões e links dentro da tabela */
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .buttonSee {
+    background-color: #2196f3; /* Cor azul para o botão Ver */
+  }
+  
+  .buttonUp {
+    background-color: #4caf50; /* Cor verde para o botão Atualizar */
+  }
+ 
+  
+.table a.buttonSee, .table a.buttonUp {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: white;
+    display: inline-block; /* Importante para a formatação correta dos links */
+  }
+  
+  /* Use .buttonDel para referenciar o botão de excluir */
+  .buttonDel {
+    background-color: #f44336;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }

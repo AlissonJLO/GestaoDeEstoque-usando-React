@@ -1,0 +1,135 @@
+.quantidade {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.quantidade > div {
+  flex-basis: 360px;
+  background-color: #1d1d1d;
+  height: 10rem;
+  width: 25rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
+  border-radius: 8px; /* Bordas arredondadas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: transform 0.2s; /* Transição suave para o hover */
+}
+
+.quantidade > div:hover {
+  transform: translateY(
+    -5px
+  ); /* Eleva a caixa levemente quando o mouse passa por cima */
+}
+
+.quantidade > div > p {
+  font-size: 3rem; /* tamanho grande para o número */
+  font-weight: bold; /* texto em negrito */
+  color: white; /* cor branca para o número */
+  margin: 0; /* remove a margem padrão */
+}
+
+.quantidade > div > h3 {
+  font-size: 1.2rem; /* ajuste para o tamanho desejado */
+  color: #ccc; /* cor clara para o título */
+  margin: 0; /* remove a margem padrão */
+  padding: 0.5rem 0; /* espaço acima e abaixo do título */
+}
+.dashboardSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboardSection > div {
+  width: 48%;
+}
+
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: sticky;
+    top: 0; /* Ou qualquer valor que você deseja para o topo da seção */
+    z-index: 10; /* Certifique-se que é maior que o conteúdo rolável */
+    background-color: #1a1a1a; /* Cor de fundo para manter a visibilidade */
+  }
+  
+  .itemContainer {
+    max-height: 300px; /* Ajuste conforme a altura desejada */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+  }
+
+.sectionHeader h2 {
+  margin: 0; /* Remove a margem padrão dos títulos */
+}
+
+.itemsRecentes,
+.itemsAcabando {
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.quantidade {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quantidade h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.quantidade p {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Aumentar o espaçamento interno */
+  margin-top: 10px; /* Espaçamento entre os itens */
+  color: #fff; /* Texto branco */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+.item span {
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.itemsAcabando p {
+  text-align: center; /* Centraliza o texto */
+  color: #aaa; /* Cor de texto mais clara para destaque */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+.itemsRecentes p {
+    text-align: center; /* Centraliza o texto */
+    color: #aaa; /* Cor de texto mais clara para destaque */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+
+.acao {
+  padding: 5px 20px; /* Ajustar o espaçamento interno */
+  background-color: #d4d4d4; /* Cor de fundo semelhante ao do fundo da seção */
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+.acao:hover {
+  background-color: #555;
+}

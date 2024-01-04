@@ -1,0 +1,37 @@
+.nav a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 20px;
+    position: relative; /* Criamos um contexto de posicionamento para o elemento filho */
+   
+}
+
+/* Classe ativa */
+.nav .active {
+    color: #fff; /* Ou qualquer outra cor de destaque */
+}
+
+.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff; /* Cor da linha */
+    position: absolute;
+    bottom: 0px; /* Ajuste conforme necessário para posicionar abaixo do link */
+    left: 0;
+    transition: width .3s;
+}
+
+
+
+ 
+  hr {
+    border: none; /* Remove a borda padrão */
+    height: 2px; /* Define a altura da linha horizontal */
+    background-color: #aaaaaa; /* Substitua com a cor que você deseja */
+
+  }
+  

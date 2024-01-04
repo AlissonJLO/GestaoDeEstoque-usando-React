@@ -1,0 +1,32 @@
+.lay{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #292929;
+    color: rgb(240, 240, 240);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+
+
+.cont {
+    flex: 1; /* Isso fará com que o conteúdo expanda para ocupar o espaço disponível, empurrando o footer para baixo */
+  
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
