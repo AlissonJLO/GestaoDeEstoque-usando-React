@@ -11,7 +11,7 @@ Este é um projeto de gestão de estoque desenvolvido por Alisson Joaquim, utili
 Para rodar este projeto localmente:
 1. Clone o repositório: `git clone https://github.com/AlissonJLO/GestaoDeEstoque-usando-React`
 2. Instale as dependências com Yarn: `yarn install`
-3. Inicie a aplicação: `yarn start`
+3. Inicie a aplicação: `yarn dev`
 
 ## Contribuição
 Contribuições para melhorar o aplicativo são sempre bem-vindas. Para contribuir, faça um fork do projeto, crie uma branch para sua feature, faça suas alterações, e então submeta uma pull request.
